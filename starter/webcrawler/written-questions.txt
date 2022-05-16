@@ -57,11 +57,11 @@ Q4. Identify three (3) different design patterns used in this project, and expla
     anything, you can name two things you disliked.
     Ans:
     - Proxy Pattern - ProfilerImpl class.
-     What I like: separate profiling functionality from others, decoupling the code
-     What I dislike: makes code overcomplicated
+     What I like: separate profiling functionality from other things, decoupling the code
+     What I dislike: makes the code overcomplicated
     - Builder Pattern - CrawlerConfiguration class, CrawlResult class.
     What I like: Encapsulates the way a complex object is constructed
-    What I dislike: Looks more complicates and have to read through a lot of code to get an idea of what it does
+    What I dislike: Looks more complicated and have to read through a lot of code to get an idea of what it does
     - Abstract Factory - PageParserFactory Interface
     What I like: It promotes loose coupling by reducing the dependency of the application on concrete classes.
     What I dislike: It can expand the total number of classes.
