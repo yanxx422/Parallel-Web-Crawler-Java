@@ -19,7 +19,8 @@ Q1. Run the web crawler using the configurations located at src/main/config/writ
     com.udacity.webcrawler.ParallelWebCrawler#crawl took 0m 2s 627ms
     com.udacity.webcrawler.parser.PageParserImpl#parse took 0m 25s 285ms
 
-    Because parallel crawler requires additional time to manage thread pools.
+    The profiler measures the total time spent in the parse() method across all threads. When run with the
+    ParallelWebCrawler, the parse() method ran more times, so profileData.txt shows the total parse() time to be greater.
 
 
 
